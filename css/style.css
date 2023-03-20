@@ -1,17 +1,17 @@
 @font-face {
-    font-family: 'OpenSans';
-    src: url("/fonts/OpenSans-Regular.woff");
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSans-Regular.woff");
     font-weight: normal;
 }
 
 @font-face {
-    font-family: 'OpenSans';
-    src: url("/fonts/OpenSans-Bold.woff");
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSans-Bold.woff");
     font-weight: 700;
 }
 
 
-.header::before {
+.header::after {
     content: '';
     width: 100%;
     height: 100%;
@@ -25,9 +25,14 @@
 /*Mobile*/
 
 @media (max-width: 640px) {
-    
-.header {
-    background-image: url(img/banner-mobile.jpg);
+
+  
+body {
+  margin: 0 0;
+}
+
+.header-banner {
+    background-image: url(../img/banner-mobile.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-color: black;
@@ -36,12 +41,25 @@
 
 .container {
     width: 91.666%;
+    height: 638px;
     margin-left: auto;
     margin-right: auto;
-}
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+  }
 
 .navigation-list {
   display: none;
+}
+
+.logo-and-title {
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .menu__button {
@@ -59,15 +77,13 @@
 .logo {
     width: 74%;
     flex-shrink: 0;
- 
 }
 
-.h1-title {
-    font-family: 'OpenSans';
+.main-title {
+    font-family: OpenSans;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 7vw;
-    line-height: 1vw;
     color: white;
     text-align: center;
     width: 76%;
@@ -75,10 +91,16 @@
 
 .now-trending {
     width: 100%;
-    height: 95px;
 }
 
-.now-trending__text {
+.big-title-box {
+  display: block;
+  width: 100%;
+  height: 96px;
+  border: 2px solid yellow;
+}
+
+.big-title {
     font-family: OpenSans;
     font-weight: 700;
     font-size: 4.444vw;
@@ -86,7 +108,7 @@
     text-align: center;
 }
 
-.now-trending__text::after {
+.big-title::after {
     content: "";
     display: block;
     width: 18%;
@@ -106,25 +128,25 @@
 }
 
 .plants {
-    background-image: url(/img/trend1.jpg);
+    background-image: url(../img/trend1.jpg);
     width: 100%;
     height: 100%;
 }
 
 .cheese {
-    background-image: url(/img/trend2.jpg);
+    background-image: url(../img/trend2.jpg);
     width: 100%;
     height: 100%;
 }
 
 .hiking {
-    background-image: url(/img/trend3.jpg);
+    background-image: url(../img/trend3.jpg);
     width: 100%;
     height: 100%;
 }
 
 .lemons {
-    background-image: url(/img/trend4.jpg);
+    background-image: url(../img/trend4.jpg);
     width: 100%;
     height: 100%;
 }
@@ -141,12 +163,13 @@
     font-family: OpenSans;
     font-weight: 700;
     font-size: 4vw;
-    color: black;
+    color: white;
     text-transform: uppercase;
 }
 
 .news-image {
     width: 100%;
+    height: 100%;
 }
 
 .tags {
