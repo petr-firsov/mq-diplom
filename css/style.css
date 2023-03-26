@@ -10,23 +10,6 @@
     font-weight: 700;
 }
 
-
-.header::after {
-    content: '';
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    opacity: 0.6;
-}
-
-
-
-
-/*Mobile*/
-
-@media (max-width: 640px) {
-
-  
 body {
   margin: 0 0;
 }
@@ -37,32 +20,33 @@ body {
     background-repeat: no-repeat;
     background-color: black;
     height: 640px;
-}   
+    position: relative;
+}  
+
+.header-banner::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+}
 
 .container {
     width: 91.666%;
-    height: 638px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     border: 2px solid black;
   }
 
-.navigation-list {
-  display: none;
-}
-
-.logo-and-title {
-  border: 2px solid red;
+.header-box {
+  height: 638px;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  align-items: center;
 }
 
-.menu__button {
+.menu-button {
     width: 1.4em;
     height: 1em;
     border: none;
@@ -74,9 +58,24 @@ body {
     cursor: pointer;
 }
 
+.header-text {
+  border: 2px solid red;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
 .logo {
     width: 74%;
     flex-shrink: 0;
+}
+
+.navigation-list {
+  display: none;
+}
+
+.heading-one {
+  width: 100%;
 }
 
 .main-title {
@@ -86,7 +85,6 @@ body {
     font-size: 7vw;
     color: white;
     text-align: center;
-    width: 76%;
 }
 
 .now-trending {
@@ -119,36 +117,47 @@ body {
     margin-top: 14px;
 }
 
-.trending-image::before {
+.trending-card {
+  position: relative;
+}
+
+.trending-card::before {
     content: "";
     background-color: black;
     opacity: 0.6;
     width: 100%;
     height: 100%;
+    position: absolute;
+}
+
+.trending-card-text {
+  border: 4px transparent #9d8a4f;
+  position: absolute;
+  bottom: 0;
 }
 
 .plants {
     background-image: url(../img/trend1.jpg);
     width: 100%;
-    height: 100%;
+    height: 230px;
 }
 
 .cheese {
     background-image: url(../img/trend2.jpg);
     width: 100%;
-    height: 100%;
+    height:  230px;
 }
 
 .hiking {
     background-image: url(../img/trend3.jpg);
     width: 100%;
-    height: 100%;
+    height:  230px;
 }
 
 .lemons {
     background-image: url(../img/trend4.jpg);
     width: 100%;
-    height: 100%;
+    height:  230px;
 }
 
 .tag {
@@ -175,6 +184,7 @@ body {
 .tags {
     display: flex;
     list-style-type: none;
+    padding-left: 0;
 }
 
 .link-tag-item {
@@ -214,19 +224,205 @@ body {
 
 .second-paragraph {
     font-family: OpenSans;
-    font-size: 15px;
+    font-size: 4vw;
     width: 367px;
     display: block;
     margin-bottom: 3px;
   }
 
-  .aside-title {
-    font-family: OpenSans;
-    font-weight: 700;
-    font-size: 4.444vw;
-    text-align: center;
-  }
+.aside-block {
+  display: flex;
+  justify-content: space-between;
+}
 
+.aside-information {
+  margin-left: 13px;
+}
+
+.aside-date {
+  font-family: OpenSans;
+  font-size: 3.333vw;
+}
+
+.aside-text {
+  font-family: OpenSans;
+  font-weight: 700;
+  font-size: 3.888vw;
+  text-transform: uppercase;
+}
+
+.aside-link {
+  color: black;
+  text-decoration: none;
+}
+
+.search-form {
+  display: flex;
+  margin-top: 60px;
+}
+
+.search {
+  width: calc(100% - 47px);
+  height: 47px;  
+  background-color: #f4f7f6;
+  border: none;
+}
+
+.search-button {
+  width: 47px;
+  height: 47px;
+  background-color: #b59f5b;
+  border: none;
+}
+
+.email-form {
+  width: 100%;
+  height: 50px;
+  background-color: #f4f7f6;
+  border: none;
+}
+
+.email-button {
+  width: 100%;
+  height: 50px;
+  background-color: #b59f5b;
+  font-family: OpenSans;
+  font-weight: 700;
+  font-size: 3.888vw;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 18px;
+}
+
+.cloud-tags-list {
+  padding-left: 0;
+}
+
+.cloud-tag-item {
+  display: inline-block;
+  font-family: OpenSans;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  border: 3px solid #eeeeee;
+  list-style-type: none;
+  margin-bottom: 2px;
+  padding: 2px 5px;
+}
+
+.cloud-tag-link {
+  color: black;
+  text-decoration: none;
+}
+
+.topics-list {
+  padding-left: 0;
+}
+
+.topic {
+  display: block;
+  height: 32px;
+  padding-top: 10px;
+  list-style-type: none;
+  font-family: OpenSans;
+  font-weight: 700;
+  font-size: 3.888vw;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.topic-link {
+  color: black;
+  text-decoration: none;
+}
+
+.topic-number {
+  color: #b59f5b;
+  position: relative;
+  bottom: 2px;
+}
+
+.item-picture {
+  width: 79%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item-text {
+  border: 3px solid #d3c59d;
+  position: relative;
+  bottom: 25px;
+}
+
+.item-title {
+  font-family: OpenSans;
+  font-weight: 700;
+  font-size: 4.722vw;
+}
+
+.item-description {
+  font-family: OpenSans;
+  font-weight: normal;
+  font-size: 4.166vw;
+}
+
+.item-link {
+  color: #b59f5b;
+}
+
+.shopping-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  border: 1px solid black;
+  width: 50px;
+}
+
+.crossed-out-price {
+  font-family: OpenSans;
+  font-weight: 700;
+  font-size: 3.888vw;
+  text-decoration: line-through;
+}
+
+.actual-price {
+  font-family: OpenSans;
+  font-weight: 700;
+  font-size: 5.555vw;
+}
+
+.shop-button {
+  width: 138px;
+  height: 50px;
+  border: none;
+  background-color: #b59f5b;
+  font-family: OpenSans;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+}
+
+.social-list {
+  list-style-type: none;
+  display: flex;
+}
+
+.social-icon {
+  width: 18px;
+}
+
+.copyright {
+  font-family: OpenSans;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+}
+
+.copyright-link {
+  text-decoration: none;
+  color: #999999;
 }
 
 
@@ -252,7 +448,8 @@ body {
 }
 
     .news-block {
-    display: flex;
+      padding-top: 45px;
+      border-bottom: 4px solid #eeeeee;
   }
   
     .news-block:nth-child(1) {
@@ -351,7 +548,7 @@ body {
   .second-paragraph {
     font-family: OpenSans;
     font-size: 15px;
-    width: 367px;
+    width: 100%;
     display: block;
     margin-bottom: 3px;
   }
