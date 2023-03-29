@@ -17,10 +17,12 @@ body {
 .header-banner {
     background-image: url(../img/banner-mobile.jpg);
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
     height: 640px;
     position: relative;
+    z-index: -2;
 }  
 
 .header-banner::before {
@@ -30,6 +32,7 @@ body {
     background-color: black;
     opacity: 0.6;
     position: absolute;
+    z-index: -1;
 }
 
 .container {
@@ -44,18 +47,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.menu-button {
-    width: 1.4em;
-    height: 1em;
-    border: none;
-    padding: 0;
-    background-color: transparent;
-    font-size: 25px;
-    position: relative;
-    text-indent: -9999px;
-    cursor: pointer;
+  z-index: 1;
 }
 
 .header-text {
@@ -67,7 +59,6 @@ body {
 
 .logo {
     width: 74%;
-    flex-shrink: 0;
 }
 
 .navigation-list {
@@ -118,6 +109,8 @@ body {
 }
 
 .trending-card {
+  display: flex;
+  align-items: end;
   position: relative;
 }
 
@@ -131,9 +124,8 @@ body {
 }
 
 .trending-card-text {
-  border: 4px transparent #9d8a4f;
-  position: absolute;
-  bottom: 0;
+  border: 4px solid #9d8a4f;
+  z-index: 1;
 }
 
 .plants {
@@ -174,6 +166,11 @@ body {
     font-size: 4vw;
     color: white;
     text-transform: uppercase;
+}
+
+.news-block {
+  padding-top: 40px;
+  border-bottom: 4px solid #eeeeee;
 }
 
 .news-image {
@@ -225,16 +222,14 @@ body {
 .second-paragraph {
     font-family: OpenSans;
     font-size: 4vw;
-    width: 367px;
     display: block;
     margin-bottom: 3px;
   }
 
 .aside-block {
   display: flex;
-  justify-content: space-between;
-}
-
+} 
+ 
 .aside-information {
   margin-left: 13px;
 }
@@ -343,6 +338,7 @@ body {
 }
 
 .item-picture {
+  display: block;
   width: 79%;
   margin-left: auto;
   margin-right: auto;
@@ -407,9 +403,11 @@ body {
 .social-list {
   list-style-type: none;
   display: flex;
+  justify-content: center;
 }
 
 .social-icon {
+  display: block;
   width: 18px;
 }
 
@@ -447,25 +445,25 @@ body {
     text-transform: uppercase;
 }
 
-    .news-block {
-      padding-top: 45px;
-      border-bottom: 4px solid #eeeeee;
-  }
-  
-    .news-block:nth-child(1) {
+.news-block {
+    padding-top: 45px;
+    border-bottom: 4px solid #eeeeee;
+}
+
+.news-block:nth-child(1) {
     padding-top: 64px;
   }
   
-    .news-block:nth-child(n+2) {
+.news-block:nth-child(n+2) {
    margin-top: 53px;  
   }
   
-    .news-image {
+.news-image {
     width: 381px;
     padding-right: 30px;
   }
   
-    .text-block {
+.text-block {
     width: 367px;
   }
   
