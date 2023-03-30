@@ -187,6 +187,7 @@ body {
     list-style-type: none;
     padding-left: 0;
     font-size: 14px;
+    margin-top: 4px;
 }
 
 .link-tag-item {
@@ -199,6 +200,10 @@ body {
     margin-left: 0;
 }
 
+.news-heading {
+  margin-top: 0;
+}
+
 .news-heading-link {
     font-family: OpenSans;
     font-size: 16px;
@@ -206,6 +211,10 @@ body {
     text-decoration: none;
     color: black;
     text-transform: uppercase;
+}
+
+.news-attribute {
+  
 }
 
 .date {
