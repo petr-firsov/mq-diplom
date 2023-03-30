@@ -20,7 +20,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
-    height: 640px;
+    height: 590px;
     position: relative;
     z-index: -2;
 }  
@@ -36,10 +36,10 @@ body {
 }
 
 .container {
-    width: 91.666%;
+    width: 81.666%;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid black;
+   /* border: 2px solid black;*/
   }
 
 .header-box {
@@ -77,36 +77,33 @@ body {
     line-height: 36px;
     color: white;
     text-align: center;
+    margin-top: 25px;
+    margin-left: 25px;
 }
 
 .now-trending {
     width: 100%;
 }
 
-.big-title-box {
-  display: block;
-  width: 100%;
-  height: 96px;
-  border: 2px solid yellow;
-}
-
 .big-title {
     font-family: OpenSans;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 15px;
     text-transform: uppercase;
     text-align: center;
+    margin-top: 32px;
 }
 
 .big-title::after {
     content: "";
     display: block;
     width: 18%;
-    height: 5px;
+    height: 2px;
     background-color: #e1d9bd;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 14px;
+    margin-top: 8px;
+    padding-bottom: 10px;
 }
 
 .trending-card {
@@ -125,32 +122,33 @@ body {
 }
 
 .trending-card-text {
-  border: 4px solid #9d8a4f;
+  border: 2px solid #9d8a4f;
   z-index: 1;
+  margin-bottom: 17px;
 }
 
 .plants {
     background-image: url(../img/trend1.jpg);
     width: 100%;
-    height: 230px;
+    height: 210px;
 }
 
 .cheese {
     background-image: url(../img/trend2.jpg);
     width: 100%;
-    height:  230px;
+    height:  210px;
 }
 
 .hiking {
     background-image: url(../img/trend3.jpg);
     width: 100%;
-    height:  230px;
+    height:  210px;
 }
 
 .lemons {
     background-image: url(../img/trend4.jpg);
     width: 100%;
-    height:  230px;
+    height:  210px;
 }
 
 .tag {
@@ -160,6 +158,7 @@ body {
     font-size: 14px;
     line-height: 37.2px;
     text-transform: uppercase;
+    margin-left: 19px;
 }
 
 .trending-title {
@@ -169,6 +168,8 @@ body {
     line-height: 20px;
     color: white;
     text-transform: uppercase;
+    margin-left: 18px;
+    margin-bottom: 19px;
 }
 
 .news-block {
@@ -185,6 +186,7 @@ body {
     display: flex;
     list-style-type: none;
     padding-left: 0;
+    font-size: 14px;
 }
 
 .link-tag-item {
@@ -199,6 +201,7 @@ body {
 
 .news-heading-link {
     font-family: OpenSans;
+    font-size: 16px;
     font-weight: 700;
     text-decoration: none;
     color: black;
