@@ -127,6 +127,10 @@ body {
   margin-bottom: 17px;
 }
 
+.trending-card-tags {
+  margin-top: 10px;
+}
+
 .plants {
     background-image: url(../img/trend1.jpg);
     width: 100%;
@@ -188,6 +192,7 @@ body {
     padding-left: 0;
     font-size: 14px;
     margin-top: 4px;
+    margin-bottom: 0;
 }
 
 .link-tag-item {
@@ -202,6 +207,7 @@ body {
 
 .news-heading {
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .news-heading-link {
@@ -211,10 +217,6 @@ body {
     text-decoration: none;
     color: black;
     text-transform: uppercase;
-}
-
-.news-attribute {
-  
 }
 
 .date {
@@ -233,8 +235,9 @@ body {
 
 .news-content {
     font-family: OpenSans;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 20px;
+    margin-top: 0;
 }
 
 .aside-block {
