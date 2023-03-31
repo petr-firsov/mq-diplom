@@ -101,7 +101,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 8px;
-    padding-bottom: 10px;
 }
 
 .trending-card {
@@ -242,7 +241,12 @@ body {
 .aside-block {
   display: flex;
   align-items: flex-start;
+  margin-bottom: 11px;
 } 
+
+.aside-image {
+  width: 67px;
+}
  
 .aside-information {
   margin-left: 13px;
@@ -252,16 +256,22 @@ body {
   font-family: OpenSans;
   font-size: 12px;
   line-height: 40px;
+  position: relative;
+  bottom: 15px;
+  right: 5px;
 }
 
 .aside-text {
   font-family: OpenSans;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 18px;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
+  position: relative;
+  bottom: 28px;
+  right: 7px;
 }
 
 .aside-link {
