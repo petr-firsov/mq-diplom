@@ -281,7 +281,7 @@ body {
 
 .search-form {
   display: flex;
-  margin-top: 60px;
+  margin-top: 46px;
 }
 
 .search {
@@ -296,6 +296,10 @@ body {
   height: 47px;
   background-color: #b59f5b;
   border: none;
+}
+
+.magnifying-glass {
+  width: 5px;
 }
 
 .email-form {
@@ -316,7 +320,7 @@ body {
   color: white;
   text-transform: uppercase;
   border: none;
-  margin-top: 18px;
+  margin-top: 9px;
 }
 
 .cloud-tags-list {
