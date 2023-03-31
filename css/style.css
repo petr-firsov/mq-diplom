@@ -246,7 +246,7 @@ body {
   font-size: 15px;
   text-transform: uppercase;
   text-align: center;
-  margin-top: 32px;
+  margin-top: 28px;
   margin-bottom: 17px;
 }
 
@@ -403,7 +403,7 @@ body {
 
 .topic {
   display: block;
-  height: 32px;
+  height: 40px;
   list-style-type: none;
   font-family: OpenSans;
   font-weight: 700;
@@ -429,28 +429,35 @@ body {
   font-size: 15px;
   text-transform: uppercase;
   text-align: center;
-  margin-top: 32px;
-  margin-bottom: 17px;
+  margin-top: 38px;
+  margin-bottom: 27px;
 }
 
 .item-picture {
   display: block;
-  width: 79%;
+  width: 94%;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
+  bottom: 8px;
 }
 
 .item-text {
   border: 3px solid #d3c59d;
   position: relative;
   bottom: 25px;
+  padding-bottom: 35px;
 }
 
 .item-title {
   font-family: OpenSans;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 15px;
   line-height: 22px;
+  text-transform: uppercase;
+  position: relative;
+  top: 21px;
+  left: 15px;
 }
 
 .item-description {
@@ -458,6 +465,9 @@ body {
   font-weight: normal;
   font-size: 15px;
   line-height: 22px;
+  position: relative;
+  left: 14px;
+  top: 6px;
 }
 
 .item-link {
@@ -470,8 +480,10 @@ body {
 }
 
 .price {
-  border: 1px solid black;
   width: 50px;
+  position: relative;
+  left: 13px;
+  top: 16px;
 }
 
 .crossed-out-price {
@@ -498,6 +510,9 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   color: white;
+  position: relative;
+  right: 20px;
+  top: 18px;
 }
 
 .social-list {
