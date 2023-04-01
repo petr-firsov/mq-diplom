@@ -529,7 +529,8 @@ body {
   font-size: 20px;
   line-height: 24px;
   position: relative;
-
+  left: 12px;
+  top: 40px;
 }
 
 .shop-button {
@@ -546,10 +547,20 @@ body {
   top: 18px;
 }
 
+.social {
+  background-color: #f4f7f6;
+  height: 78px;
+  width: 83%;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+
 .social-list {
   list-style-type: none;
   display: flex;
   justify-content: center;
+  padding-top: 29px;
 }
 
 .social-icon {
@@ -562,6 +573,7 @@ body {
   font-weight: 700;
   font-size: 12px;
   text-align: center;
+  margin-top: 29px;
 }
 
 .copyright-link {
