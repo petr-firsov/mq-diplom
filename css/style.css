@@ -510,6 +510,8 @@ body {
   font-size: 14px;
   line-height: 24px;
   text-decoration: line-through;
+  position: relative;
+  top: 3px;
 }
 
 .actual-price {
@@ -518,8 +520,12 @@ body {
   font-size: 20px;
   line-height: 24px;
   position: relative;
-  left: 14px;
-  top: 35px;
+  bottom: 5px;
+}
+
+.doll-rabbit-price {
+  position: relative;
+  
 }
 
 .shop-button {
