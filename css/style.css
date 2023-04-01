@@ -524,8 +524,12 @@ body {
 }
 
 .doll-rabbit-price {
+  font-family: OpenSans;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
   position: relative;
-  
+
 }
 
 .shop-button {
