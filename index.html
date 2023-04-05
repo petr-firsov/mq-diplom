@@ -10,10 +10,40 @@
 <body>
     <header>
         <div class='header-banner'>
-          <div class="popup">
-            
-          </div>
            <div class="container header-box">
+             <div class="popup">
+              <div class="feedback">
+                <h2 class="big-title-line feedback-title">Ваш фидбек</h2>
+                <form>
+                  <span class="feedback-question">Как часто вы заходите на сайт?</span>
+                  <select class="visit-frequency">
+                    <option>Почти каждый день</option>
+                    <option>Раз в несколько дней</option>
+                    <option>Раз в несколько недель</option>
+                    <option>Несколько раз в год</option>
+                  </select>
+                  </form>
+                  <form class="email-question">
+                    <span class="feedback-question">Вы подписаны на email-рассылку?</span>
+                    <label class="radio-button" >
+                      <input class="answer" type="radio" name="yes-no" checked>
+                      <span class="radio-button-text">Да</span>
+                    </label>
+                    <label class="radio-button">
+                      <input class="answer" type="radio" name="yes-no">
+                      <span class="radio-button-text">Нет</span>
+                    </label>
+                </form>
+                <form>
+                  <span class="feedback-question">
+                    Расскажите, какой контент вы хотели бы видеть на нашем сайте?
+                  </span>
+                  <textarea class="textarea">
+                    Может, больше рецептов?
+                  </textarea>
+                </form>
+              </div>
+            </div>
             <button class="menu-button"></button>
             <div class="header-text">
             <a href='#'> <img class="logo" src="svg/noemi-logo.svg" alt="Логотип">
