@@ -55,7 +55,8 @@ align-items: center;
 z-index: 1;
 }
 
-.popup {
+.popup_hidden {
+  display: none;
   background-color: #ffffff;
   width: 81.666%;
   min-height: 550px;
@@ -730,139 +731,47 @@ z-index: 1;
   color: #999999;
 }
 
+@media (orientation:landscape) {
+  .trending-cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
+  .trending-card {
+    width: 50%;
+  }
+}
+
+
+/*Tablet*/
+
+@media (min-width: 641px) and (max-width: 1199px) {
+    .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .item-card {
+    width: 50%;
+  }
+
+  .pillows-text {
+    padding-bottom: 79px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1199px) (orientation: landcape) {
+  .trending-cards {
+    display: flex;
+  }
+}
 
 /*Desktop*/
 
 @media (min-width: 1200px) {
 
-.tag {
-    font-family: OpenSans;
-    font-weight: 700;
-    font-size: 4vw;
-    color: #e1d9bd;
-    text-transform: uppercase;
-}
-
-.trending-title {
-    font-family: OpenSans;
-    font-weight: 700;
-    color: white;
-    font-size: 4.444vw;
-    text-transform: uppercase;
-}
-
-.news-block {
-    padding-top: 45px;
-    border-bottom: 4px solid #eeeeee;
-}
-
-.news-block:nth-child(1) {
-    padding-top: 64px;
-  }
-  
-.news-block:nth-child(n+2) {
-   margin-top: 53px;  
-  }
-  
-.news-image {
-    width: 381px;
-    padding-right: 30px;
-  }
-  
-.text-block {
-    width: 367px;
-  }
-  
-  .tags {
-    display: flex; 
-    font-size: 14px;
-    text-transform: uppercase;
-    color: #b59f5b;
-    font-family: OpenSans;
-    font-weight: bold;
-    padding-left: 0;
-    margin: 0 20px 0 0;
-  }
-  
-  .tag-item {
-      list-style-type: none;
-  }
-  
-  .link-tag-item {
-    text-decoration: none;
-    color: #b59f5b;
-    margin-right: 20px;
-  }
-  
-  .link-tag-item:hover {
-    text-decoration: underline;
-    cursor: pointer;
-  }
-  
-  .news-heading {
-    display: block;
-    font-family: OpenSans;
-    font-weight: bold;
-    font-size: 20px;
-    width: 367px;
-    text-transform: uppercase;
-    line-height: 24px;
-    margin: 0;
-    margin-top: 5px;
-  }
-  
-  .news-heading:hover {
-    color: #b59f5b;
-    cursor: pointer;
-  }
-  
-  .news-heading-link {
-    text-decoration: none;
-    color: black;
-  }
-  
-  .date {
-    font-family: OpenSans;
-    font-size: 12px;
-  }
-  
-  .author {
-    font-family: OpenSans;
-    font-weight: bold;
-    font-size: 12px;
-  }
-  
-  .date, .author {
-    display: inline-block;
-    padding-top: 28px;
-    padding-right: 9px;
-    
-
-  }
-
-.news-content {
-    font-family: OpenSans;
-    font-size: 15px;
-    width: 367px;
-    display: block;
-    margin-top: 45px;
-    line-height: 22px;
-  }
-  
-  .second-paragraph {
-    font-family: OpenSans;
-    font-size: 15px;
-    width: 100%;
-    display: block;
-    margin-bottom: 3px;
-  }
-
-  .aside-title {
-    font-family: OpenSans;
-    font-weight: 700;
-    font-size: 4.444vw;
-    text-align: center;
-  }
-
-}
