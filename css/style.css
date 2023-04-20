@@ -53,8 +53,25 @@ display: flex;
 justify-content: center;
 align-items: center;
 z-index: 1;
+position: relative;
 }
 
+.menu-container {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.menu-line {
+  width: 24px;
+  height: 3px;
+  background-color: white;
+  margin-bottom: 4px;
+}
+
+/*
 .popup_hidden {
   display: none;
   background-color: #ffffff;
@@ -199,6 +216,7 @@ z-index: 1;
   position: absolute;
   left: 0;
 }
+*/
 
 .header-text {
   display: block;
@@ -743,7 +761,7 @@ z-index: 1;
 }
 
 
-/*Tablet*/
+/*Tablet
 
 @media (min-width: 641px) and (max-width: 1199px) {
     .flex {
@@ -771,7 +789,8 @@ z-index: 1;
   }
 }
 
-/*Desktop*/
+Desktop
 
 @media (min-width: 1200px) {
 
+*/
