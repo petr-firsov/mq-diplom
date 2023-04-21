@@ -8,6 +8,40 @@
     <title>Document</title>
 </head>
 <body>
+  <div class="container for-popup">
+  <div class="popup">
+    <a href="#"><img alt='cross-button' class="form-x" src="svg/form-x.svg"></a>
+    <div class="feedback">
+      <h2 class="big-title-line feedback-title">Ваш фидбек</h2>
+      <form class="visit-frequency-question">
+        <span class="feedback-question">Как часто вы заходите на сайт?</span>
+        <select class="visit-frequency">
+          <option>Почти каждый день</option>
+          <option>Раз в несколько дней</option>
+          <option>Раз в несколько недель</option>
+          <option>Несколько раз в год</option>
+        </select>
+        </form>
+        <form class="email-question">
+          <span class="feedback-question">Вы подписаны на email-рассылку?</span>
+            <input class="answer" type="radio" name="yes-no" id="yes" checked>
+            <label class="radio-button-text" for="yes">Да</label>
+            <input class="answer" type="radio" name="yes-no" id="no">
+            <label class="radio-button-text" for="no">Нет</label>
+      </form>
+      <form class="recipe-question">
+        <span class="feedback-question">
+          Расскажите, какой контент вы хотели бы видеть на нашем сайте?
+        </span>
+        <textarea class="textarea">Может, больше рецептов?
+        </textarea>
+      </form>
+      <button class="send-button" type="button">
+        Отправить
+      </button>
+    </div>
+  </div>
+  </div>
     <header>
         <div class='header-banner'>
            <div class="container header-box">
@@ -18,47 +52,10 @@
                  <div class="menu-line"></div>
                </div>
               </div>
-            <!-- <a href="#"><img class="form-x" src="/svg/form-x.svg"></a>
-             <div class="popup">
-              <div class="feedback">
-                <h2 class="big-title-line feedback-title">Ваш фидбек</h2>
-                <form class="visit-frequency-question">
-                  <span class="feedback-question">Как часто вы заходите на сайт?</span>
-                  <select class="visit-frequency">
-                    <option>Почти каждый день</option>
-                    <option>Раз в несколько дней</option>
-                    <option>Раз в несколько недель</option>
-                    <option>Несколько раз в год</option>
-                  </select>
-                  </form>
-                  <form class="email-question">
-                    <span class="feedback-question">Вы подписаны на email-рассылку?</span>
-                    <label class="radio-button" >
-                      <input class="answer" type="radio" name="yes-no" checked>
-                      <span class="radio-button-text">Да</span>
-                    </label>
-                    <label class="radio-button">
-                      <input class="answer" type="radio" name="yes-no">
-                      <span class="radio-button-text">Нет</span>
-                    </label>
-                </form>
-                <form class="recipe-question">
-                  <span class="feedback-question">
-                    Расскажите, какой контент вы хотели бы видеть на нашем сайте?
-                  </span>
-                  <textarea class="textarea">
-                    Может, больше рецептов?
-                  </textarea>
-                </form>
-                <button class="send-button" type="button">
-                  Отправить
-                </button>
-              </div>
-            </div>
-            <button class="menu-button"></button> -->
             <div class="header-text">
             <a href='#'> <img class="logo" src="svg/noemi-logo.svg" alt="Логотип">
             </a>
+
         <nav>
           <ul class='navigation-list'>
             <li class='list-item'>Главная</li>
