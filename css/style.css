@@ -13,9 +13,10 @@
 body {
   margin: 0 0;
   position: relative;
+  font-family: OpenSans, sans-serif;
 }
 
-body::before {
+/* body::before {
   content: "";
   background-color: black;
   opacity: 0.6;
@@ -23,7 +24,7 @@ body::before {
   width: 100%;
   height: 100%;
   z-index: 2;
-}
+} */
 
 .header-banner {
     background-image: url(../img/banner-mobile.jpg);
@@ -36,7 +37,7 @@ body::before {
     z-index: -2;
 }  
 
-.header-banner::before {
+/* .header-banner::before {
   content: '';
   width: 100%;
   height: 100%;
@@ -44,10 +45,10 @@ body::before {
   opacity: 0.6;
   position: absolute;
   z-index: -1;
-}
+} */
 
 .container {
-  width: 81.666%;
+  width: 330px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -59,6 +60,10 @@ body::before {
   align-items: center;
   z-index: 1;
   position: relative;
+}
+
+.logo-tablet {
+  display: none;
 }
 
 .menu-container {
@@ -86,7 +91,9 @@ body::before {
   min-height: 400px;
   position: fixed;
   z-index: 3;
-  top: 8%;
+  top: 40px;
+
+  display: none;
 }
 
 .form-x {
@@ -163,15 +170,25 @@ body::before {
 .radio-button-text::before {
   content: "";
   background-image: url(../svg/form-empty-circle.svg);
+  background-size: 100%;
   display: inline-block;
-  width: 15px;
-  height: 15px;
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+  margin-top: 10px;
 }
 
-.radio-button:checked + radio-button-text::before {
+.answer:checked + .radio-button-text::before {
   content: "";
   background-image: url(../svg/form-circle.svg);
-  width: 15px;
+  background-size: cover;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+}
+
+.yes-button-text {
+  margin-right: 20px;
 }
 
 .recipe-question {
@@ -184,7 +201,8 @@ body::before {
   font-size: 13px;
   background-color: #f4f7f6;
   border: none;
-  width: 95%;
+  width: 266px;
+  max-width: 266px;
   padding-left: 13px;
   padding-top: 14px;
   padding-bottom: 60px;
@@ -213,10 +231,11 @@ body::before {
   display: block;
   text-align: center;
   width: 100%;
+  padding-top: 185px;
 }
 
-.logo {
-    width: 74%;
+.logo-mobile {
+    width: 75%;
 }
 
 .navigation-list {
@@ -245,7 +264,7 @@ body::before {
 .big-title-line::after {
     content: "";
     display: block;
-    width: 18%;
+    width: 75px;
     height: 2px;
     background-color: #e1d9bd;
     margin-left: auto;
@@ -334,6 +353,7 @@ body::before {
     margin-left: 18px;
     margin-bottom: 19px;
     margin-top: 0;
+    width: 260px;
 }
 
 .news-block {
@@ -549,7 +569,7 @@ body::before {
 .topics-title::after {
   content: "";
   display: block;
-  width: 18%;
+  width: 60px;
   height: 2px;
   background-color: #e1d9bd;
   margin-left: auto;
@@ -595,7 +615,7 @@ body::before {
 
 .item-picture {
   display: block;
-  width: 88%;
+  width: 290px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -622,6 +642,12 @@ body::before {
   padding-bottom: 35px;
 }
 
+.item-content {
+  width: 290px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .item-title {
   font-family: OpenSans;
   font-weight: 700;
@@ -630,7 +656,6 @@ body::before {
   text-transform: uppercase;
   position: relative;
   top: 21px;
-  left: 15px;
 }
 
 .item-description {
@@ -638,12 +663,11 @@ body::before {
   font-weight: normal;
   font-size: 13px;
   line-height: 22px;
+  display: block;
+  width: auto;
+
   position: relative;
   top: 10px;
-  display: block;
-  width: 88%;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .item-link {
@@ -659,7 +683,6 @@ body::before {
 .price {
   width: 50px;
   position: relative;
-  left: 13px;
   top: 16px;
 }
 
@@ -688,7 +711,6 @@ body::before {
   font-size: 20px;
   line-height: 24px;
   position: relative;
-  left: 12px;
   top: 40px;
 }
 
@@ -702,14 +724,13 @@ body::before {
   text-transform: uppercase;
   color: white;
   position: relative;
-  right: 20px;
   top: 18px;
 }
 
 .social {
   background-color: #f4f7f6;
   height: 78px;
-  width: 83%;
+
   margin-left: auto;
   margin-right: auto;
 }
@@ -752,10 +773,45 @@ body::before {
 }
 
 
-/*Tablet
+/* Tablet */
 
 @media (min-width: 641px) and (max-width: 1199px) {
-    .flex {
+  
+  .container {
+    width: 90%;
+  }
+
+  .header-box {
+    display: block;
+  }
+
+  .top-line {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+  }
+  
+  .logo-tablet {
+    display: block;
+    width: 155px;
+  }
+
+  .menu-container {
+    display: block;
+    position: static;
+    margin-top: 0;
+  }
+
+  .logo-mobile {
+    display: none;
+  }
+
+  .main-title {
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  .flex {
     display: flex;
     justify-content: space-between;
   }
@@ -763,14 +819,27 @@ body::before {
   .items {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .item-card {
-    width: 50%;
+    width: calc(50% - 20px);
+  }
+
+  .item-picture {
+    width: 85%;
   }
 
   .pillows-text {
     padding-bottom: 79px;
+  }
+
+  .item-content {
+    width: 85%;
+  }
+
+  .item-description {
+    width: auto;
   }
 }
 
@@ -780,8 +849,87 @@ body::before {
   }
 }
 
-Desktop
+
+
+/* Desktop */
 
 @media (min-width: 1200px) {
+ 
+  .header-banner {
+    height: 450px;
+  }
 
-*/
+  .container {
+    width: 90%;
+    max-width: 1170px;
+  }
+
+  .header-box {
+    display: block;
+    height: 450px;
+  }
+
+  .logo-tablet {
+    display: block;
+    width: 180px;
+  }
+
+  .top-line {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+  }
+
+  .menu-container {
+    display: block;
+    position: static;
+    margin-top: 0px;
+  }
+
+  .menu-button {
+    display: none;
+  }
+
+  .navigation-list {
+    display: flex;
+    padding-left: 0;
+    list-style-type: none;
+    margin: 0 0;
+  }
+
+  .list-item {
+    margin-right: 30px;
+    font-family: OpenSans, sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .logo-mobile {
+    display: none;
+  }
+
+  .heading-one {
+    font-family: OpenSans, sans-serif;
+    font-size: 45px;
+    line-height: 75px;
+  }
+
+  .trending-cards {
+    display: flex;
+  }
+
+  .trending-card {
+    width: calc(25% - 2px);
+    border: 1px solid white;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .news-block {
+    display: flex;
+    border-bottom: none;
+  }
+}

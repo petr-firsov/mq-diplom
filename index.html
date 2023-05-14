@@ -25,7 +25,7 @@
         <form class="email-question">
           <span class="feedback-question">Вы подписаны на email-рассылку?</span>
             <input class="answer" type="radio" name="yes-no" id="yes" checked>
-            <label class="radio-button-text" for="yes">Да</label>
+            <label class="radio-button-text yes-button-text" for="yes">Да</label>
             <input class="answer" type="radio" name="yes-no" id="no">
             <label class="radio-button-text" for="no">Нет</label>
       </form>
@@ -45,34 +45,39 @@
     <header>
         <div class='header-banner'>
            <div class="container header-box">
+            <div class="top-line">
+            <a href='#'> <img class="logo-tablet" src="svg/noemi-logo.svg" alt="Логотип">
+            </a>
               <div class="menu-container">
                 <div class="menu-button">
                  <div class="menu-line"></div>
                  <div class="menu-line"></div>
                  <div class="menu-line"></div>
                </div>
+               <nav>
+                <ul class='navigation-list'>
+                  <li class='list-item'>Главная</li>
+                  <li class='list-item'>Посты</li>
+                  <li class='list-item'>Статьи</li>
+                  <li class='list-item'>Теги</li>
+                  <li class='list-item'>Темы</li>
+                  <li class='list-item'>Контакты</li>
+                </ul>
+              </nav>
+           
               </div>
-            <div class="header-text">
-            <a href='#'> <img class="logo" src="svg/noemi-logo.svg" alt="Логотип">
-            </a>
-
-        <nav>
-          <ul class='navigation-list'>
-            <li class='list-item'>Главная</li>
-            <li class='list-item'>Посты</li>
-            <li class='list-item'>Статьи</li>
-            <li class='list-item'>Теги</li>
-            <li class='list-item'>Темы</li>
-            <li class='list-item'>Контакты</li>
-          </ul>
-        </nav>
-     
+            </div>
+     <div class="header-text">
+              <a href='#'> <img class="logo-mobile" src="svg/noemi-logo.svg" alt="Логотип">
+              </a>
+        
           <div class='heading-one'>
           <h1 class='main-title'>Блог о творчестве, спорте, и образе жизни</h1>
           </div>
-        </div>
-        </div>
       </div>
+        </div>
+         </div>
+
       </header>
       <div class="now-trending">
         <h2 class="big-title-line now-trending-title">Сейчас в тренде</h2>
@@ -279,15 +284,17 @@
             <img class="item-picture" src="img/shop-item-mobile1.jpg" alt="Подушки на диване">
           </picture>
           <div class="item-text pillows-text">
-          <h3 class="item-title">Подушки на диван</h3>
-          <span class="item-description">Набор из двух подушек с модными принтами. Видео о создании <a class="item-link" href=#>здесь</a>.</span>
+            <div class="item-content">
+              <h3 class="item-title">Подушки на диван</h3>
+              <span class="item-description">Набор из двух подушек с модными принтами. Видео о создании <a class="item-link" href=#>здесь</a>.</span>
           <div class="shopping-menu">
             <div class="price">
              <span class="crossed-out-price">1000 ₽</span>
-            <span class="actual-price">800 ₽</span>
+             <span class="actual-price">800 ₽</span>
             </div>
-          <button class="shop-button">В магазин</button>
-         </div>
+            <button class="shop-button">В магазин</button>
+            </div>
+          </div>
          </div>
         </article>
         <article class="item-card rabbit">
@@ -298,11 +305,13 @@
             <img class="item-picture" src="img/shop-item-mobile2.jpg" alt="Кукла Зайчик">
           </picture>
           <div class="item-text rabbit-text">
-          <h3 class="item-title">Кукла "Зайчик"</h3>
-          <span class="item-description">Интерьерная рукодельная кукла "Зайчик", созданию которой посвящена <a class="item-link" href=#>весенняя серия постов</a> в блоге и несколько подкастов.</span>
+            <div class="item-content">
+             <h3 class="item-title">Кукла "Зайчик"</h3>
+             <span class="item-description">Интерьерная рукодельная кукла "Зайчик", созданию которой посвящена <a class="item-link" href=#>весенняя серия постов</a> в блоге и несколько подкастов.</span>
           <div class="shopping-menu">
           <span class="doll-rabbit-price">3500 ₽</span>
           <button class="shop-button">В магазин</button>
+          </div>
           </div>
           </div>
         </article>
@@ -314,6 +323,7 @@
             <img class="item-picture" src="img/shop-item-mobile3.jpg" alt="Шестиугольная рамка">
            </picture>
            <div class="item-text frame-text">
+            <div class="item-content">
             <h3 class="item-title">Шестиугольная рамка</h3>
             <span class="item-description">Необычная рамка для украшения дома из видео <a class="item-link" href=#>"Как сделать рамку из подручных средств за 30 минут"</a></span>
             <div class="shopping-menu">
@@ -324,12 +334,13 @@
               <button class="shop-button">В магазин</button>
             </div>
             </div>
+            </div>
           </article>
           </div>
         </article>
       </article>
 
-      <footer>
+      <footer class="container">
         <div class='social'>
           <ul class='social-list'>
             <li><a href='#' class='dribbble-icon social-icon'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
