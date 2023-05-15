@@ -801,14 +801,19 @@ body {
     width: 90%;
   }
 
+  .header-banner {
+    height: 393px;
+  }
+
   .header-box {
     display: block;
+    padding-top: 0;
   }
 
   .top-line {
     display: flex;
     justify-content: space-between;
-    padding-top: 25px;
+    padding-top: 45px;
   }
   
   .logo-tablet {
@@ -819,7 +824,9 @@ body {
   .menu-container {
     display: block;
     position: static;
-    margin-top: 0;
+    margin-top: 10px;
+    position: relative;
+    left: 6px;
   }
 
   .logo-mobile {
@@ -829,11 +836,36 @@ body {
   .main-title {
     font-size: 40px;
     line-height: 55px;
+    width: 635px;
+    margin-left: 35px;
   }
 
   .flex {
     display: flex;
     justify-content: space-between;
+  }
+
+  .now-trending-title {
+    margin-top: 42px;
+    margin-bottom: 42px;
+  }
+
+  .plants {
+    height: 245px;
+    border-right: 2px solid white;
+  }
+  
+  .cheese {
+    height: 245px;
+  }
+
+  .hiking {
+    height: 245px;
+    border-right: 2px solid white;
+  }
+
+  .lemons {
+    height: 245px;
   }
 
   .items {
