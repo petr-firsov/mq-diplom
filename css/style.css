@@ -314,7 +314,7 @@ body {
   border: 2px solid #9d8a4f;
   z-index: 1;
   margin-bottom: 17px;
-  padding-top: 12px;
+  padding-top: 3px;
 
 }
 
@@ -357,7 +357,7 @@ body {
     font-family: OpenSans;
     font-weight: 700;
     color: #b59f5b;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 37.2px;
     text-transform: uppercase;
     margin-left: 22px;
@@ -370,10 +370,10 @@ body {
     line-height: 20px;
     color: white;
     text-transform: uppercase;
-    margin-left: 18px;
-    margin-bottom: 19px;
+    margin-left: 21px;
+    margin-bottom: 26px;
     margin-top: 0;
-    width: 260px;
+    width: 275px;
 }
 
 .news-block {
