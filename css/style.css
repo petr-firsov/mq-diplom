@@ -296,7 +296,7 @@ body {
 
 .trending-card {
   display: flex;
-  /* align-items: end; */
+  align-items: end;
   position: relative;
   border-bottom: 2px solid white;
 }
