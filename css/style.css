@@ -803,7 +803,7 @@ body {
 
   .news-container {
     width: 394px;
-    margin-left: 34px;
+    margin-left: 37px;
     margin-top: 12px;
   }
 
@@ -885,9 +885,7 @@ body {
   }
 
   .news-image {
-    width: 394px;
-    margin-left: 11px;
-    margin-top: 12px;
+    width: 100%;
   }
 
   .link-tag-item {
