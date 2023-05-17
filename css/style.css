@@ -801,6 +801,10 @@ body {
     width: 90%;
   }
 
+  .news-container {
+    width: 394px;
+  }
+
   .header-banner {
     height: 393px;
   }
@@ -833,6 +837,10 @@ body {
     display: none;
   }
 
+  .heading-one {
+    margin-top: 90px;
+  }
+
   .main-title {
     font-size: 40px;
     line-height: 55px;
@@ -846,8 +854,14 @@ body {
   }
 
   .now-trending-title {
-    margin-top: 42px;
-    margin-bottom: 42px;
+    font-size: 17px;
+    margin-top: 44px;
+    margin-bottom: 23px;
+    margin-right: 6px;
+  }
+
+  .trending-card {
+    width: calc(50% - 2px);
   }
 
   .plants {
@@ -866,6 +880,12 @@ body {
 
   .lemons {
     height: 245px;
+  }
+
+  .news-image {
+    width: 394px;
+    margin-left: 11px;
+    margin-top: 12px;
   }
 
   .items {
