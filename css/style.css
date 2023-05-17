@@ -803,6 +803,8 @@ body {
 
   .news-container {
     width: 394px;
+    margin-left: 34px;
+    margin-top: 12px;
   }
 
   .header-banner {
@@ -886,6 +888,27 @@ body {
     width: 394px;
     margin-left: 11px;
     margin-top: 12px;
+  }
+
+  .link-tag-item {
+   margin-right: 18px; 
+  }
+
+  .news-heading {
+    margin-top: 7px;
+  }
+
+  .news-heading-link {
+    font-size: 17px;
+  }
+
+  .news-attributes {
+    display: flex;
+  }
+  
+  .date {
+    display: block;
+    margin-top: 17px;
   }
 
   .items {
