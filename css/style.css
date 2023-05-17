@@ -902,11 +902,12 @@ body {
 
   .news-attributes {
     display: flex;
+    margin-right: 12px;
   }
   
   .date {
     display: block;
-    margin-right: 12px;
+
   }
 
   .news-content {
