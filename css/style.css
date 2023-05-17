@@ -906,7 +906,19 @@ body {
   
   .date {
     display: block;
-    margin-top: 17px;
+    margin-right: 12px;
+  }
+
+  .news-content {
+    font-size: 15px;
+    line-height: 22px;
+    margin-top: 16px;
+  }
+
+  .items-title {
+    font-size: 18px;
+    margin-top: 46px;
+    margin-right: 21px;
   }
 
   .items {
@@ -916,7 +928,7 @@ body {
   }
 
   .item-card {
-    width: calc(50% - 20px);
+    width: calc(50% - 24px);
   }
 
   .item-picture {
