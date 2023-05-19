@@ -897,13 +897,14 @@ body {
 
   .hiking-tags {
     position: relative;
-    bottom: 2px;
-    left: 18px;
+    bottom: 0px;
+    left: 13px;
   }
 
   .lemons-tags {
     position: relative;
-    left: 22px;
+    left: 16px;
+    bottom: 0px;
   }
 
   .trending-title {
@@ -924,11 +925,13 @@ body {
   }
 
   .hiking-title {
-    margin-bottom: 27px;
+    margin-bottom: 29px;
+    margin-left: 34px;
   }
 
   .lemons-title {
     margin-left: 36px;
+    margin-bottom: 29px;
   }
 
   .news-image {
@@ -988,9 +991,82 @@ body {
     margin-top: 10px;
   }
 
-  .little-image-beach {
+  .aside-image {
+    width: 68px;
+    margin-top: 13px;
+    margin-left: 0px;
+  }
+
+  .aside-date {
+    position: relative;
+    bottom: 4px;
+    left: 7px;
+}
+
+  .aside-text {
+    font-size: 14px;
+    position: relative;
+    left: 6px;
+    top: -14px;
+  }
+
+  .
+
+  /* .little-image-beach {
     margin-top: 15px;
   }
+
+  .little-image-yoga {
+    margin-top: 11px;
+  }
+
+  .little-image-plates {
+    margin-top: 12px;
+  }
+
+  .little-beach-date {
+    position: relative;
+    bottom: 4px;
+    left: 7px;
+  }
+
+  .little-yoga-date {
+    position: relative;
+    bottom: 6px;
+    left: 7px;
+  }
+
+  .little-plates-date {
+    position: relative;
+    bottom: 4px;
+  }
+
+  .little-image-girls {
+
+  }
+
+  .little-beach-text {
+    position: relative;
+    left: 9px;
+    top: -12px;
+  }
+
+  .little-yoga-text {
+    position: relative;
+    left: 7px;
+    top: -15px;
+  }
+
+  .little-room-text {
+    position: relative;
+    left: 6px;
+    top: -14px;
+}
+
+ .little-plates-text {
+
+ } */
+
 
   .aside-text {
     font-size: 14px;
