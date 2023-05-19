@@ -1072,12 +1072,57 @@ body {
     font-size: 14px;
   }
 
-  .
-
   .items-title {
     font-size: 18px;
     margin-top: 46px;
     margin-right: 21px;
+  }
+
+  .search {
+    width: calc(100% - 67px);
+    padding-left: 8px;
+  }
+
+  .search-button {
+    padding-top: 5px;
+  }
+
+  .distribution-title {
+    margin-right: 23px;
+  }
+
+  .email-form {
+    width: 257px;
+  }
+
+  .email-button {
+    width: 268px;
+    margin-top: 14px;
+  }
+
+  .tags-title {
+    margin-top: 56px;
+    margin-right: 19px;
+  }
+
+  .clouds-tag-list {
+    padding-top: 8px;
+    padding-right: 27px;
+    padding-left: 0px;
+  }
+
+  .cloud-tag-item {
+    padding: 3px 14px;
+  }
+
+  .topics-title {
+    margin-top: 47px;
+    margin-right: 16px;
+  }
+
+  .topic {
+    height: 45px;
+    font-size: 14px;
   }
 
   .items {
@@ -1086,25 +1131,60 @@ body {
     justify-content: space-between;
   }
 
+  .items-title {
+    font-size: 18px;
+    margin-top: 42px;
+  }
+
   .item-card {
-    width: calc(50% - 24px);
+    width: calc(50% - 12px);
   }
 
   .item-picture {
-    width: 85%;
+    width: 295px;
   }
 
   .pillows-text {
-    padding-bottom: 79px;
+    padding-bottom: 100px;
   }
 
   .item-content {
-    width: 85%;
+    width: 285px;
+  }
+
+  .item-title {
+    font-size: 17px;
+    top: 23px;
+    right: 7px;
   }
 
   .item-description {
-    width: auto;
+    width: 295px;
+    font-size: 15px;
   }
+
+  .price {
+    top: 37px;
+  }
+
+  .crossed-out-price {
+    top: -3px;
+    right: 8px;
+  }
+
+  .shop-button {
+    position: relative;
+    top: 30px;
+    width: 140px;
+  }
+
+  .rabbit-text {
+    padding-bottom: 54px;
+  }
+
+  .
+
+
 }
 
 @media (min-width: 641px) and (max-width: 1199px) (orientation: landcape) {
