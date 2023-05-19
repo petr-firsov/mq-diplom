@@ -884,6 +884,53 @@ body {
     height: 245px;
   }
 
+  .garden-tags {
+   position: relative;
+   left: 18px;
+  }
+
+  .cheese-tags {
+    position: relative;
+    top: 3px;
+    left: 21px;
+  }
+
+  .hiking-tags {
+    position: relative;
+    bottom: 2px;
+    left: 18px;
+  }
+
+  .lemons-tags {
+    position: relative;
+    left: 22px;
+  }
+
+  .trending-title {
+    font-size: 17px;
+  }
+
+  .garden-title {
+    margin-left: 32px;
+    margin-bottom: 32px;
+    width: 222px;
+  }
+
+  .cheese-title {
+    width: 260px;
+    line-height: 22px;
+    margin-left: 34px;
+    margin-bottom: 31px;
+  }
+
+  .hiking-title {
+    margin-bottom: 27px;
+  }
+
+  .lemons-title {
+    margin-left: 36px;
+  }
+
   .news-image {
     width: 100%;
   }
