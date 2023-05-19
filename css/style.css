@@ -803,8 +803,8 @@ body {
 
   .news-container {
     width: 394px;
-    margin-left: 37px;
-    margin-top: 12px;
+    margin-left: 31px;
+    margin-top: 10px;
   }
 
   .header-banner {
@@ -888,12 +888,18 @@ body {
     width: 100%;
   }
 
+  .tags {
+    margin-top: 6px;
+    margin-left: 3px;
+  }
+
   .link-tag-item {
    margin-right: 18px; 
   }
 
   .news-heading {
-    margin-top: 7px;
+    margin-top: 9px;
+    line-height: 21px;
   }
 
   .news-heading-link {
@@ -902,11 +908,12 @@ body {
 
   .news-attributes {
     display: flex;
-    margin-right: 12px;
+    margin-top: 20px;
   }
   
   .date {
     display: block;
+    margin-right: 13px;
 
   }
 
@@ -914,7 +921,35 @@ body {
     font-size: 15px;
     line-height: 22px;
     margin-top: 16px;
+    margin-left: 2px;
   }
+
+  .aside {
+    margin-left: 21px;
+    margin-top: 38px;
+  }
+
+  .aside-title {
+    font-size: 14px;
+    margin-top: 8px;
+    margin-right: 14px;
+    margin-bottom: 17px;
+  }
+
+  .big-title-line::after {
+    width: 68px;
+    margin-top: 10px;
+  }
+
+  .little-image-beach {
+    margin-top: 1px;
+  }
+
+  .aside-text {
+    font-size: 14px;
+  }
+
+  .
 
   .items-title {
     font-size: 18px;
