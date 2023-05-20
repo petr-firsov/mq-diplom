@@ -1078,21 +1078,31 @@ body {
     margin-right: 21px;
   }
 
+  .search-form {
+    margin-top: 62px;
+    padding-left: 3px;
+  }
+
   .search {
     width: calc(100% - 67px);
     padding-left: 8px;
   }
 
   .search-button {
-    padding-top: 5px;
+    padding-top: 4px;
+    padding-left: 9px;
   }
 
   .distribution-title {
     margin-right: 23px;
+    margin-top: 57px;
+    margin-left: 4px;
   }
 
   .email-form {
-    width: 257px;
+    width: 266px;
+    margin-top: 5px;
+    padding-left: 11px;
   }
 
   .email-button {
@@ -1101,8 +1111,9 @@ body {
   }
 
   .tags-title {
-    margin-top: 56px;
+    margin-top: 54px;
     margin-right: 19px;
+    margin-left: 4px;
   }
 
   .clouds-tag-list {
@@ -1144,6 +1155,12 @@ body {
     width: 295px;
   }
 
+  .frame-text {
+    padding-bottom: 67px;
+    position: relative;
+    bottom: 38px;
+  }
+
   .pillows-text {
     padding-bottom: 100px;
   }
@@ -1161,6 +1178,7 @@ body {
   .item-description {
     width: 295px;
     font-size: 15px;
+    right: 5px;
   }
 
   .price {
