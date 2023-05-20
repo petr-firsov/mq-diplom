@@ -1235,6 +1235,7 @@ body {
  
   .header-banner {
     height: 450px;
+    padding-top: 0px;
   }
 
   .container {
@@ -1255,13 +1256,14 @@ body {
   .top-line {
     display: flex;
     justify-content: space-between;
-    padding-top: 30px;
+    padding-top: 28px;
+    padding-left: 4px;
   }
 
   .menu-container {
     display: block;
-    position: static;
-    margin-top: 0px;
+    position: relative;
+    top: 0px;
   }
 
   .menu-button {
@@ -1276,7 +1278,7 @@ body {
   }
 
   .list-item {
-    margin-right: 30px;
+    margin-right: 35px;
     font-family: OpenSans, sans-serif;
     font-size: 13px;
     text-transform: uppercase;
@@ -1293,6 +1295,18 @@ body {
     line-height: 75px;
   }
 
+  .main-title {
+    font-size: 45px;
+    margin-top: 105px;
+    margin-left: 236px;
+    width: 710px;
+  }
+
+  .now-trending-title {
+    font-size: 20px;
+    margin-top: 55px;
+  }
+
   .trending-cards {
     display: flex;
   }
@@ -1300,7 +1314,20 @@ body {
   .trending-card {
     width: calc(25% - 2px);
     border: 1px solid white;
+    height: 320px;
   }
+
+  .trending-title {
+    font-size: 20px;
+  }
+
+  .garden-title {
+    width: 268px;
+    margin-left: 31px;
+    margin-bottom: 30px;
+  }
+
+  .
 
   .flex {
     display: flex;
