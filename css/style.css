@@ -1293,14 +1293,15 @@ body {
   .heading-one {
     font-family: OpenSans, sans-serif;
     font-size: 45px;
-    line-height: 75px;
+ 
   }
 
   .main-title {
     font-size: 45px;
-    margin-top: 105px;
+    margin-top: 88px;
     margin-left: 236px;
     width: 710px;
+    line-height: 75px;
   }
 
   .now-trending-title {
