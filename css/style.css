@@ -1158,11 +1158,17 @@ body {
   .frame-text {
     padding-bottom: 67px;
     position: relative;
-    bottom: 38px;
+    bottom: 46px;
   }
 
   .pillows-text {
-    padding-bottom: 100px;
+      padding-bottom: 107px;
+      bottom: 34px;
+  }
+
+  .rabbit-text {
+    padding-bottom: 63px;
+    bottom: 34px;
   }
 
   .item-content {
@@ -1171,14 +1177,15 @@ body {
 
   .item-title {
     font-size: 17px;
-    top: 23px;
-    right: 7px;
+    top: 32px;
+    right: 5px;
   }
 
   .item-description {
     width: 295px;
     font-size: 15px;
     right: 5px;
+    top: 18px;
   }
 
   .price {
@@ -1186,21 +1193,30 @@ body {
   }
 
   .crossed-out-price {
-    top: -3px;
-    right: 8px;
+    top: 3px;
+    right: 4px;
+  }
+
+  .actual-price {
+    bottom: 3px;
+    right: 4px;
   }
 
   .shop-button {
     position: relative;
-    top: 30px;
+    top: 40px;
     width: 140px;
   }
+
+  .
 
   .rabbit-text {
     padding-bottom: 54px;
   }
 
-  .
+  .doll-rabbit-price {
+    top: 58px;
+  }
 
 
 }
