@@ -1401,6 +1401,12 @@ body {
     display: flex;
   }
 
+  .new-container {
+    margin-left: 245px;
+  }
+
+  
+
   .news-block {
     display: flex;
     border-bottom: none;
