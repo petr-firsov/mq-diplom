@@ -1406,4 +1406,51 @@ body {
     display: flex;
     border-bottom: none;
   }
+
+  .news-image {
+    width: 380px;
+  }
+
+  .beach-image {
+    margin-top: 25px;
+  }
+
+  .yoga-image {
+    margin-top: 20px;
+  }
+
+  .music-image {
+    margin-top: 19px;
+  }
+
+  .plates-imge {
+    margin-top: 18px;
+  }
+
+  .pillow-image {
+    margin-top: 18px;
+  }
+
+  .tag-item {
+    margin-right: 15px;
+  }
+
+  .news-heading-link {
+    display: block;
+    width: 335px;
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 5px;
+  }
+
+  .news-attributes {
+    margin-top: 13px;
+  }
+
+  .news-content {
+    font-size: 15px;
+    line-height: 22px;
+    margin-top: 35px;
+    width: 355px;
+  }
 }
