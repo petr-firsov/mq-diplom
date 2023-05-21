@@ -1299,7 +1299,6 @@ body {
   .heading-one {
     font-family: OpenSans, sans-serif;
     font-size: 45px;
-    margin-top: 105px;
   }
 
   .main-title {
@@ -1346,14 +1345,14 @@ body {
     line-height: 25px;
   }
 
-
   .cheese-text {
     padding-top: 14px;
   }
 
   .cheese-tags {
-    margin-top: 10px;
-    left: 12px;
+    margin-top: 22px;;
+    left: 19px;
+    top: 1px;
   }
 
   .cheese-title {
@@ -1361,7 +1360,8 @@ body {
     position: relative;
     top: -4px;
     left: 13px;
-}
+    width: 320px;
+  }
   
   .hiking-text {
     padding-top: 16px;
@@ -1369,6 +1369,7 @@ body {
 
   .hiking-tags {
     left: 26px;
+    top: 1px;
   }
 
   .hiking-title {
@@ -1378,12 +1379,14 @@ body {
   }
 
   .lemons-tags {
-    left: 26px;
+    left: 28px;
+    top: 1px;
   }
 
   .lemons-title {
+    position: relative;
     top: -4px;
-    left: 21px;
+    left: 23px;
   }
 
 
