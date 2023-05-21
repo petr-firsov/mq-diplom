@@ -1261,10 +1261,16 @@ body {
     padding-left: 4px;
   }
 
+  .header-text {
+    padding-top: 16px;
+  }
+
   .menu-container {
     display: block;
+    margin-top: 0px;
     position: relative;
-    top: 0px;
+    top: 12px;
+    left: 36px;
   }
 
   .menu-button {
@@ -1293,7 +1299,7 @@ body {
   .heading-one {
     font-family: OpenSans, sans-serif;
     font-size: 45px;
- 
+    margin-top: 105px;
   }
 
   .main-title {
@@ -1323,13 +1329,63 @@ body {
     font-size: 20px;
   }
 
-  .garden-title {
-    width: 268px;
-    margin-left: 31px;
-    margin-bottom: 30px;
+  .garden-tags {
+    margin-top: 20px;
+    left: 12px;
+    top: 3px;
+  }
+  .tag {
+    font-size: 14px;
+    margin-left: 16px;
   }
 
-  .
+  .garden-title {
+    width: 268px;
+    margin-left: 32px;
+    margin-bottom: 31px;
+    line-height: 25px;
+  }
+
+
+  .cheese-text {
+    padding-top: 14px;
+  }
+
+  .cheese-tags {
+    margin-top: 10px;
+    left: 12px;
+  }
+
+  .cheese-title {
+    font-size: 20px;
+    position: relative;
+    top: -4px;
+    left: 13px;
+}
+  
+  .hiking-text {
+    padding-top: 16px;
+  }
+
+  .hiking-tags {
+    left: 26px;
+  }
+
+  .hiking-title {
+    position: relative;
+    top: -4px;
+    left: 21px;
+  }
+
+  .lemons-tags {
+    left: 26px;
+  }
+
+  .lemons-title {
+    top: -4px;
+    left: 21px;
+  }
+
 
   .flex {
     display: flex;
