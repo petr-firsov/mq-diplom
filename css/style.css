@@ -1327,6 +1327,7 @@ body {
   .trending-title {
     font-size: 20px;
     line-height: 25px;
+    width: 295px;
   }
 
   .garden-tags {
@@ -1347,7 +1348,7 @@ body {
   }
 
   .cheese-text {
-    padding-top: 14px;
+    padding-top: 4px;
   }
 
   .cheese-tags {
@@ -1379,6 +1380,10 @@ body {
     left: 21px;
   }
 
+  .lemons-text {
+    padding-top: 13px;
+  }
+
   .lemons-tags {
     left: 28px;
     top: 1px;
@@ -1388,6 +1393,7 @@ body {
     position: relative;
     top: -4px;
     left: 23px;
+    width: 295px;
   }
 
 
