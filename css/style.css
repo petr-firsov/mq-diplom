@@ -1413,6 +1413,7 @@ body {
 
   .news-image {
     width: 380px;
+    height: 90%;
     margin-left: -34px;
   }
 
@@ -1443,6 +1444,20 @@ body {
 
   .tag-item {
     margin-right: 15px;
+  }
+
+  .beach-tags {
+    margin-top: 4px;
+  }
+
+  .yoga-tags {
+    margin-top: 5px;
+  }
+
+  
+
+  .date {
+    margin-right: 8px;
   }
 
   .news-heading-link {
