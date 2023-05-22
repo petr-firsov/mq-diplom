@@ -1413,6 +1413,12 @@ body {
 
   .news-image {
     width: 380px;
+    margin-left: -34px;
+  }
+
+  .text-block {
+    margin-left: 29px;
+    margin-top: 18px;
   }
 
   .beach-image {
