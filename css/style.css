@@ -1396,11 +1396,15 @@ body {
 
   .flex {
     display: flex;
+    width: 90%;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
   }
-
+/* 
   .news-container {
     margin-left: 245px;
-  }
+  } */
 
   .news-block {
     display: flex;
