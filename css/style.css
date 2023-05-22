@@ -1417,6 +1417,10 @@ body {
     margin-left: -34px;
   }
 
+  .news-content {
+    width: 365px;
+  }
+
   .text-block {
     margin-left: 29px;
     margin-top: 18px;
@@ -1436,7 +1440,7 @@ body {
   }
 
   .yoga-tags {
-    margin-top: 2px;
+    margin-top: -6px;
   }
   
   .yoga-attributes {
@@ -1453,11 +1457,19 @@ body {
   }
 
   .music-tags {
-    margin-top: 3px;
+    margin-top: -6px;
   }
 
   .music-heading {
     margin-top: 4px;
+  }
+
+  .music-content {
+    margin-top: 34px;
+  }
+
+  .music-second-paragraph {
+    margin-top: 22px;
   }
 
   .plates-image {
