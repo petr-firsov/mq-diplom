@@ -1426,15 +1426,41 @@ body {
     margin-top: 25px;
   }
 
+  .beach-tags {
+    margin-top: 4px;
+  }
+
   .yoga-image {
-    margin-top: 20px;
+    margin-top: 16px;
+    height: 93%;
+  }
+
+  .yoga-tags {
+    margin-top: 2px;
+  }
+  
+  .yoga-attributes {
+    margin-left: -2px;
+  }
+
+  .yoga-content {
+    margin-top: 38px;
   }
 
   .music-image {
-    margin-top: 19px;
+    margin-top: 17px;
+    height: 85%;
   }
 
-  .plates-imge {
+  .music-tags {
+    margin-top: 3px;
+  }
+
+  .music-heading {
+    margin-top: 4px;
+  }
+
+  .plates-image {
     margin-top: 18px;
   }
 
@@ -1446,15 +1472,9 @@ body {
     margin-right: 15px;
   }
 
-  .beach-tags {
-    margin-top: 4px;
-  }
+ 
 
-  .yoga-tags {
-    margin-top: 5px;
-  }
 
-  
 
   .date {
     margin-right: 8px;
