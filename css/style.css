@@ -1526,23 +1526,22 @@ body {
   }
 
   .plates-heading {
-    margin-top: -10px;
+    margin-top: 2px;
   }
 
   /*Pillow block*/
 
 
   .pillow-image {
-    margin-top: 12px;
+    margin-top: 22px;
   }
 
   .pillow-tags {
-    margin-top: -7px;
-    margin-left: -3px;
+    margin-top: -4px;
   }
 
   .pillow-heading {
-    margin-top: -10px;
+    margin-top: 2px;
   }
 
 }
