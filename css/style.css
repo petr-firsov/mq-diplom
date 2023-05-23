@@ -1418,7 +1418,10 @@ body {
   }
 
   .news-content {
-    width: 365px;
+      font-size: 15px;
+      line-height: 22px;
+      margin-top: 35px;
+      width: 375px;
   }
 
   .text-block {
@@ -1504,10 +1507,5 @@ body {
     margin-top: 13px;
   }
 
-  .news-content {
-    font-size: 15px;
-    line-height: 22px;
-    margin-top: 35px;
-    width: 355px;
-  }
+
 }
