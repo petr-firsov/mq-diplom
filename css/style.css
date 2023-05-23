@@ -1421,13 +1421,38 @@ body {
       font-size: 15px;
       line-height: 22px;
       margin-top: 35px;
-      width: 375px;
+      width: 370px;
   }
 
   .text-block {
     margin-left: 29px;
     margin-top: 18px;
   }
+
+  .tag-item {
+    margin-right: 15px;
+  }
+
+  .news-heading-link {
+    display: block;
+    width: 335px;
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 5px;
+  }
+
+  .news-attributes {
+    margin-top: 13px;
+  }
+
+  .date {
+    margin-right: 8px;
+  }
+
+
+  /*Beach block*/
+
+
 
   .beach-image {
     margin-top: 25px;
@@ -1436,6 +1461,12 @@ body {
   .beach-tags {
     margin-top: 4px;
   }
+
+
+
+
+  /*Yoga block*/
+
 
   .yoga-image {
     margin-top: 16px;
@@ -1454,10 +1485,16 @@ body {
     margin-top: 38px;
   }
 
+
+
+  /*Music block*/
+
+
+
   .music-image {
-    margin-top: 17px;
-    height: 85%;
-  }
+    margin-top: 15px;
+    height: 94%;
+}
 
   .music-tags {
     margin-top: -6px;
@@ -1472,40 +1509,40 @@ body {
   }
 
   .music-second-paragraph {
-    margin-top: 22px;
+    margin-top: -3px;
+    margin-left: -1px;
   }
+
+
+  /*Plates block*/
+
 
   .plates-image {
     margin-top: 18px;
   }
 
+  .plates-tags {
+    margin-top: -4px;
+  }
+
+  .plates-heading {
+    margin-top: -10px;
+  }
+
+  /*Pillow block*/
+
+
   .pillow-image {
-    margin-top: 18px;
+    margin-top: 12px;
   }
 
-  .tag-item {
-    margin-right: 15px;
+  .pillow-tags {
+    margin-top: -7px;
+    margin-left: -3px;
   }
 
- 
-
-
-
-  .date {
-    margin-right: 8px;
+  .pillow-heading {
+    margin-top: -10px;
   }
-
-  .news-heading-link {
-    display: block;
-    width: 335px;
-    font-size: 20px;
-    line-height: 26px;
-    margin-top: 5px;
-  }
-
-  .news-attributes {
-    margin-top: 13px;
-  }
-
 
 }
