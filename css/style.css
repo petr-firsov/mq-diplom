@@ -1544,4 +1544,9 @@ body {
     margin-top: 2px;
   }
 
+
+  .aside {
+    margin-left: 140px;
+    margin-top: 48px;
+  }
 }
