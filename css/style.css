@@ -1614,6 +1614,40 @@ body {
   }
 
 
+  .search {
+    width: 248px;
+  }
+
+  .search-button {
+    width: 53px;
+  }
+
+  .magnifying-glass {
+    padding-top: 2px;
+  }
+
+  .distribution-title {
+    margin-top: 58px;
+    margin-right: 5px;
+    margin-bottom: 21px;
+  }
+
+  .email-form {
+    padding-left: 9px;
+  }
+
+  .email-button {
+    margin-top: 15px;
+  }
+
+  .tags-title {
+    margin-top: 55px;
+    margin-bottom: 29px;
+  }
+
+  .cloud-tags-list {
+    width: 250px;
+  }
 
 
 
