@@ -1559,31 +1559,57 @@ body {
   }
 
   .aside-image {
-    margin-top: 13px;
+    margin-top: 10px;
   }
 
   .aside-information {
     margin-left: 0;
   }
 
+  .aside-date {
+    bottom: 10px;
+    left: 22px;
+  }
+
   .aside-text {
+    font-size: 14px;
     bottom: 17px;
     left: 23px;
+    width: 183px;
   }
 
   .little-image-room{
     margin-top: 9px;
   }
 
-  .little-image-plates {
-    margin-top: 9px;
-  }
-
   .little-room-text {
-    bottom: 18px;
+    bottom: 12px;
     left: 21px;
   }
 
+  .little-room-date {
+    bottom: 2px;
+  }
+
   
+  .little-image-plates {
+    margin-top: -3px;
+  }
+
+  .little-plates-date {
+    bottom: 14px;
+  }
+
+  .little-girls-date {
+    bottom: 10px;
+  }
+
+  .little-girls-text {
+    bottom: 19px;
+  }
+
+
+
+
 
 }
