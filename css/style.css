@@ -1613,9 +1613,13 @@ body {
     bottom: 19px;
   }
 
+  .search-form {
+    margin-top: 60px;
+  }
 
   .search {
     width: 248px;
+    padding-left: 10px;
   }
 
   .search-button {
@@ -1649,6 +1653,71 @@ body {
     width: 250px;
   }
 
+  .topics-title {
+    margin-top: 47px;
+  }
 
+  .items-title {
+    font-size: 20px;
+    margin-top: 46px;
+  }
+
+  .items {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .item-text {
+    padding-bottom: 102px;
+    width: 345px;
+  }
+
+  .rabbit-text {
+    padding-bottom: 54px;
+  }
+
+  .frame-text {
+    padding-bottom: 78px;
+  }
+
+  .item-title {
+    font-size: 20px;
+    top: 24px;
+    right: 8px;
+  }
+
+  .item-description {
+    font-size: 15px;
+    top: 10px;
+    left: -7px;
+  }
+
+  .shop-button {
+    width: 136px;
+    top: 30px;
+  }
+
+  .crossed-out-price {
+    top: 18px;
+    right: 7px;
+  }
+
+  .actual-price {
+    bottom: -10px;
+    right: 7px;
+  }
+
+  .doll-rabbit-price {
+    top: 50px;
+    right: 3px;
+  }
+
+  .social {
+    margin-top: 38px;
+  }
+
+  .copyright {
+    margin-top: 74px;
+  }
 
 }
