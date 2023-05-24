@@ -1544,9 +1544,46 @@ body {
     margin-top: 2px;
   }
 
+/*Aside*/
+
 
   .aside {
     margin-left: 140px;
     margin-top: 48px;
   }
+
+  .aside-title {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: 27px;
+  }
+
+  .aside-image {
+    margin-top: 13px;
+  }
+
+  .aside-information {
+    margin-left: 0;
+  }
+
+  .aside-text {
+    bottom: 17px;
+    left: 23px;
+  }
+
+  .little-image-room{
+    margin-top: 9px;
+  }
+
+  .little-image-plates {
+    margin-top: 9px;
+  }
+
+  .little-room-text {
+    bottom: 18px;
+    left: 21px;
+  }
+
+  
+
 }
