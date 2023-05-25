@@ -54,6 +54,11 @@ body::before {
   margin-right: auto;
 }
 
+.for-popup {
+  display: flex;
+  justify-content: center;
+}
+
 .header-box {
   height: 638px;
   display: flex;
